@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer">
+    <link rel="manifest" href="manifest.json">
+    <title>JO DOWNLOADER | Ultra Edition</title>
+    <meta property="og:title" content="JO DOWNLOADER | Ultra Edition">
+<meta property="og:description" content="Download video TikTok No Watermark, MP3, dan Slide Show dengan kualitas Ultra HD. Cepat, gratis, dan mudah!">
+<meta property="og:image" content="https://jodownloader-dvju.vercel.app/banner.png">
+<meta property="og:url" content="https://jodownloader-dvju.vercel.app/">
+<meta property="og:type" content="website">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&family=Orbitron:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="main-wrapper">
+    <div class="brand-box">
+        <div class="logo-container">
+            <img src="logo.png" alt="JO">
+        </div>
+        <h1>JO DOWNLOADER</h1>
+        <p class="tagline">Download & Enjoy Your Life</p>
+    </div>
+
+    <div class="search-area">
+        <input type="text" id="urlInput" placeholder="Paste link TikTok di sini...">
+        <button class="btn-paste" id="pasteBtn" onclick="pasteLink()">PASTE</button>
+    </div>
+
+    <button class="btn-execute" id="mainBtn" onclick="processData()">EXECUTE LINK</button>
+
+    <div id="result">
+        <div class="premium-card">
+            <div id="mediaArea" class="media-viewer"></div>
+            <div id="actionArea" class="button-stack"></div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 JO_DOWNLOADER.V1 // GILANG NUR PRASETYO</p>
+    </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
